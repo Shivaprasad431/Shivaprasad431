@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Shivaprasad431
+- 👋 Hi, I’m @Shivaprasad Koyyada
 - 👀 I’m interested in python
 - 🌱 I’m currently learning full stack web development using python
 - 💞️ I’m looking to collaborate on ...
