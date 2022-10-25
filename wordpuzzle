@@ -1,0 +1,39 @@
+score=0
+for i in range(5):
+    a="FATHER"  
+    b= "Father"
+    c="father"
+    d="BREAK"  
+    e="Break"
+    f="break"
+    g="COUNTRY"
+    h="Country" 
+    p="country"
+    j="Green" 
+    k="GREEN"
+    l="green"
+    m="AEROPLANE"
+    n="Aeroplane"
+    o="aeroplane"
+    A="RAEHTF"
+    B="KABRE"
+    C="CYROTNU"
+    D="RENEG"
+    F="OAERELANP"
+    z=[A,B,C,D,F]
+    s=[a,b,c,d,e,f,g,h,p,j,k,l,m,n,o]
+    q=[]
+    
+    print(z[i])
+    H=input("Enter a correct sequance\n")
+    if H in s:
+        score+=1
+        i+=1 
+        q.append(score)
+    else:
+        score-=1
+        i+=1  
+        q.append(score)
+
+print("Total Score is",sum(q))    
+print("Net Score",sum(q))    
